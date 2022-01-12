@@ -44,6 +44,14 @@ li {
   align-items: center;
 }
 
+.box-navbar{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1200px;
+}
+
 .link-navbar{
   color: var(--color-dark);
   font-size: 16px;
@@ -103,7 +111,6 @@ li {
   color: transparent;
   font-size: 80px;
 }
-
 
 /* FLEX BOX */
 
@@ -191,5 +198,21 @@ background: linear-gradient(315deg, rgba(131,58,180,1) 0%, rgba(232,144,255,1) 9
   font-weight: 700;
   text-align: center;
   margin-top: 50px;
-  padding: 250px 0px;
+}
+
+.box-noprojects{
+  padding: 290px 0px;
+}
+
+.button-returntohome{
+  background-color: var(--color-dark);
+  color: #fff;
+  display: block;
+  margin: 0 auto;
+  width: 390px;
+  text-align: center;
+  padding: 20px 60px;
+  border-radius: 50px;
+  font-weight: 600;
+  margin-top: 50px;
 }

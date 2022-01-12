@@ -44,6 +44,14 @@ li {
   align-items: center;
 }
 
+.box-navbar{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1200px;
+}
+
 .link-navbar{
   color: var(--color-dark);
   font-size: 16px;
@@ -83,7 +91,7 @@ li {
 .main-background {
   background: var(--gradient-blue);
   width: 100%;
-  padding: 300px 0px;
+  padding: 250px 0px;
   margin-top: 80px;
 }
 

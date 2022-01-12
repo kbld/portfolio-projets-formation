@@ -15,6 +15,8 @@ li {
   list-style-type: none;
 }
 
+
+
 :root{
   --color-light: #fff;
   --color-dark : #000;
@@ -81,7 +83,7 @@ li {
 .main-background {
   background: var(--gradient-blue);
   width: 100%;
-  padding: 300px 0px;
+  padding: 250px 0px;
   margin-top: 80px;
 }
 
@@ -91,9 +93,91 @@ li {
   font-weight: 700;
   text-align: center;
   font-size: 50px;
+  max-width: 900px;
+  display: block;
+  margin: 0 auto;
 }
 
-.main-text-weight {
+.main-text-stroke {
   -webkit-text-stroke: 1.5px var(--color-light);
   color: transparent;
+  font-size: 80px;
+}
+
+
+/* FLEX BOX */
+
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: stretch;
+  align-items: flex-start;
+  margin: 50px 0px;
+}
+
+.box {
+  width: 350px;
+  margin: 20px 20px;
+  border-radius: 10px;
+  align-self: auto;
+  padding: 30px 30px;
+  background: var(--gradient-blue);
+  box-shadow: 0 0.25rem 0.75rem rgb(0 0 0 / 5%);
+}
+
+.number-title {
+  font-size: 72px;
+  -webkit-text-stroke: 3px var(--color-light);
+  font-weight: 600;
+  color: transparent;
+  font-style: italic;
+}
+
+.img-box {
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 240px;
+  object-fit: contain;
+}
+
+.box-html-css{
+  background: rgb(255, 94, 0);
+}
+.box-js{
+  background: rgb(255, 208, 0);
+  
+}
+.box-ux-ui{
+  background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+.box-design{
+  background: linear-gradient(45deg, rgb(255, 0, 0), rgb(225, 0, 255));
+}
+
+.sous-title-box {
+  padding: 60px 0px;
+  font-size: 35px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--color-light);
+
+}
+
+.button-link-box{
+  padding: 20px 30px;
+  display: block;
+  margin: auto;
+  background: var(--color-light);
+  text-align: center;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  color: var(--color-dark);
+  font-weight: 700;
+  font-size: 18px;
 }

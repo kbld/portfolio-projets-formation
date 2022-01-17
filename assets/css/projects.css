@@ -27,7 +27,7 @@ li {
 .navbar {
   box-shadow: none;
   background-color: transparent;
-  position: absolute;
+  position: fixed;
   top: 0;
   width: 100%;
   padding: 18px 50px;
@@ -35,6 +35,7 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  transition: 0.5s;
 }
 
 .box-navbar {
@@ -81,21 +82,15 @@ li {
 .main-background {
   background: var(--gradient-blue);
   width: 100%;
-  height: 100vh;
-  padding: 350px 0px;
+  padding: 190px 0px;
 }
 
 .main-text {
   color: var(--color-light);
   letter-spacing: 0.8px;
   font-weight: 700;
-  font-size: 50px;
-  padding: 60px 0px;
   text-align: center;
-}
-
-.box-leftright{
-  display: flex;
+  font-size: 50px;
 }
 
 .main-text-weight {
@@ -103,24 +98,4 @@ li {
   color: transparent;
 }
 
-.box-landing{
-  max-width: 1200px;
-  display: block;
-  margin: 0 auto;
-}
 
-
-.button-link-landing {
-  padding: 15px 30px;
-  text-align: center;
-  margin-top: 500px;
-  cursor: pointer;
-  border-radius: 10px;
-  color: #fff;
-  font-weight: 700;
-  font-size: 18px;
-  border: 1px solid #fff;
-  width: 300px;
-  display: block;
-  margin: 0 auto;
-}

@@ -328,7 +328,7 @@ text-transform: uppercase;
   border-radius: 10px;
   box-shadow: 0 2.76726px 2.21381px rgb(0 0 0 / 7%), 0 6.6501px 5.32008px rgb(0 0 0 / 4%), 0 12.5216px 10.0172px rgb(0 0 0 / 3%), 0 22.3363px 17.869px rgb(0 0 0 / 3%), 0 41.7776px 33.4221px rgb(0 0 0 / 2%), 0 100px 80px rgb(0 0 0 / 2%);
   background-color: #f6f6f6;
-  height: 450px;
+  height: 400px;
   width: 350px;
   margin: 20px;
   padding: 20px 30px;
@@ -365,6 +365,6 @@ font-size: 15px;
   color: #000;
   text-transform: uppercase;
   text-align: center;
-  margin-top: 280px;
+  margin-top: 270px;
 
 }

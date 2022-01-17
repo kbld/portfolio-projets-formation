@@ -27,7 +27,7 @@ li {
 .navbar {
   box-shadow: none;
   background-color: transparent;
-  position: fixed;
+  position: absolute;
   top: 0;
   width: 100%;
   padding: 18px 50px;
@@ -35,7 +35,6 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  transition: 0.5s;
 }
 
 .box-navbar {
@@ -82,8 +81,8 @@ li {
 .main-background {
   background: var(--gradient-blue);
   width: 100%;
-  padding: 250px 0px;
-  margin-top: 70px;
+  height: 100vh;
+  padding: 350px 0px;
 }
 
 .main-text {

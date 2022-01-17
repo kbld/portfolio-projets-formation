@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: var(--color-light);
+  background-color: #f7f7fb;
 }
 
 a,
@@ -113,13 +113,10 @@ li {
 .box {
   width: 450px;
   margin: 20px 20px;
-  background-color: var(--color-light);
   border-radius: 10px;
   align-self: auto;
   padding: 30px 30px;
-
-  box-shadow: 0 2.76726px 2.21381px rgb(0 0 0 / 7%), 0 6.6501px 5.32008px rgb(0 0 0 / 4%), 0 12.5216px 10.0172px rgb(0 0 0 / 3%), 0 22.3363px 17.869px rgb(0 0 0 / 3%), 0 41.7776px 33.4221px rgb(0 0 0 / 2%), 0 100px 80px rgb(0 0 0 / 2%);
-  background-color: #f6f6f6;
+  background-color: #ffffff;
 }
 
 .number-title {
@@ -143,15 +140,26 @@ li {
 }
 
 .button-link-box {
-  padding: 15px 30px;
-  display: block;
-  margin: auto;
-  background: var(--gradient-blue);
-  text-align: center;
-  margin-top: 30px;
+  border: 1px solid #000;
+  color: rgb(0, 0, 0);
   cursor: pointer;
   border-radius: 50px;
+  font-weight: 500;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 15px;
+  padding: 15px 35px;
+  border-radius: 10px;
+  color: #000;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.button-link-box:hover {
+  border: 1px solid #000;
   color: #fff;
-  font-weight: 700;
-  font-size: 18px;
+  background-color: #000;
+  transition: 0.5s;
 }

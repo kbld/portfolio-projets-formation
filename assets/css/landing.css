@@ -124,3 +124,12 @@ li {
   display: block;
   margin: 0 auto;
 }
+
+
+.button-link-landing:hover {
+  border: 1px solid rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  transition: 0.5s;
+}
+

@@ -82,8 +82,7 @@ li {
 .main-background {
   background: var(--gradient-blue);
   width: 100%;
-  padding: 250px 0px;
-  margin-top: 70px;
+  padding: 350px 0px;
 }
 
 .main-text {

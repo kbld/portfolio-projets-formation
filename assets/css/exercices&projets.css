@@ -320,7 +320,7 @@ text-transform: uppercase;
 .gallery_filter_tab{
   display: block;
   margin: 0 auto;
-  max-width: 1200px;
+  width:1000px;
   padding: 50px 0px;
 }
 

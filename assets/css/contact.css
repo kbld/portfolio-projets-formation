@@ -38,6 +38,19 @@ li {
   transition: 0.5s;
 }
 
+
+.myemail {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  text-align: left;
+  color: #000;
+  text-decoration: underline;
+}
+
+.email {
+  margin-top: 20px;
+}
+
 .box-navbar {
   display: block;
   margin-left: auto;
@@ -162,3 +175,8 @@ li {
   background-color: #000;
   transition: 0.5s;
 }
+
+
+
+
+

@@ -59,12 +59,11 @@ li {
   text-decoration: none;
   display: flex;
   margin: 0px 60px;
-  padding: 12px 20px;
-  border: 1px solid transparent;
-  border-radius: 50px;
+  padding: 12px 0px;
+  border-bottom: 1px solid transparent;
 }
 .link-title:hover {
-  border: 1px solid;
+  border-bottom: 1px solid #ffffff;
   transition: 0.5s;
 }
 

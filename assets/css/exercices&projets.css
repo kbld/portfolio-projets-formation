@@ -181,6 +181,7 @@ li {
 
 }
 
+
 .number-title {
   font-size: 72px;
   -webkit-text-stroke: 3px var(--color-light);
@@ -280,6 +281,7 @@ li {
   margin-right: auto;
 }
 
+
 /*----------  Container menu iso-gallery  ----------*/
 .container_menu_iso {
   margin: 4rem 0;
@@ -347,17 +349,14 @@ a:hover {
 
 
 .gallery_filter_tab{
-  display: block;
-  margin: 0 auto;
-  width:1000px;
+  display: flex;
+  justify-content: center;
   padding: 50px 0px;
 }
 
 .list-inline {
-  padding: 0px 15px;
   border-radius: 10px;
   display: flex;
-  margin: 0px 20px;
   box-shadow: 0 2.76726px 2.21381px rgb(0 0 0 / 7%), 0 6.6501px 5.32008px rgb(0 0 0 / 4%), 0 12.5216px 10.0172px rgb(0 0 0 / 3%), 0 22.3363px 17.869px rgb(0 0 0 / 3%), 0 41.7776px 33.4221px rgb(0 0 0 / 2%), 0 100px 80px rgb(0 0 0 / 2%);
   background-color: #f6f6f6;
   flex-direction: row;
@@ -537,6 +536,51 @@ font-size: 15px;
   transition: 0.5s;
 }
 
+
+
+
+
+
+.custome-select{
+  background-color:#DDD;
+  position:relative;
+  width:300px;
+  height:70px;
+  z-index:3;
+}
+
+.custome-select:after{
+  content: '\25bc';
+  font-size:25px;
+  width:50px;
+  height:30px;
+  position : absolute;
+  background-color:#FF8080;
+  z-index:1;
+  right:20px;
+  top:20px;
+  text-align:center;
+
+}
+
+
+.select{
+  background:transparent;
+  border:none;
+  width:100%;
+  height:100%;
+  font-size:22px;
+  z-index:2;
+  padding:0 10px;
+  position : relative;
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  appearance:none;
+}
+
+.select:hover{
+  cursor:pointer;
+}
 
 
 

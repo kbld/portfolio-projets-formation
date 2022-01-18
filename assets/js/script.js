@@ -20,31 +20,6 @@ $(document).ready(function () {
     });
   });
 
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
   $(document).ready(function(){
     $(".filter-button").click(function(){
       var value = $(this).attr('data-filter');
@@ -74,6 +49,7 @@ $(document).ready(function () {
         $(".link-title").css("color", "#000");
         $(".logo").css("fill", "#000");
         $(".link-title:before").css("background", "#000");
+        var styleElem = document.head.appendChild(document.createElement("style"));styleElem.innerHTML = ".link-title:before {background: #000;}";
       }
   
       else {
@@ -82,12 +58,17 @@ $(document).ready(function () {
         $(".link-title").css("color", "#fff");
         $(".logo").css("fill", "#fff");
         $(".link-title:before").css("background", "#fff");
+        var styleElem = document.head.appendChild(document.createElement("style"));styleElem.innerHTML = ".link-title:before {background: #fff;}";
+
 
       }
     })
   })
 
 
+
+
+  
 
 
 

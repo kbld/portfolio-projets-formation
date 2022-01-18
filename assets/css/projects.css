@@ -133,7 +133,11 @@ li {
 .main-background {
   background: var(--gradient-blue);
   width: 100%;
-  padding: 190px 0px;
+  padding: 350px 0px;
+}
+
+.img-separator{
+  margin-bottom: -360px;
 }
 
 .main-text {

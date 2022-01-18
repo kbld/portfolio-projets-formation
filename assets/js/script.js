@@ -43,7 +43,8 @@ $(document).ready(function () {
   $(document).ready(function () {
     $(window).scroll(function () {
       var scroll = $(window).scrollTop();
-      if (scroll > 1) {
+      if (scroll > 70) {
+        $(".navbar").css("position", "fixed");
         $(".navbar").css("background", "#fff");
         $(".navbar").css("box-shadow", "0 2px 10px 0 rgba(0, 0, 0, 0.15)");
         $(".link-title").css("color", "#000");
@@ -53,6 +54,7 @@ $(document).ready(function () {
       }
   
       else {
+        $(".navbar").css("position", "absolute");
         $(".navbar").css("background", "rgb(255, 255, 255, 0)");
         $(".navbar").css("box-shadow", "none");
         $(".link-title").css("color", "#fff");
@@ -60,10 +62,10 @@ $(document).ready(function () {
         $(".link-title:before").css("background", "#fff");
         var styleElem = document.head.appendChild(document.createElement("style"));styleElem.innerHTML = ".link-title:before {background: #fff;}";
 
-
       }
     })
   })
+
 
 
 

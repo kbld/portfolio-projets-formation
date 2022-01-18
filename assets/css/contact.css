@@ -165,6 +165,10 @@ li {
   padding: 350px 0px;
 }
 
+.img-separator{
+  margin-bottom: -360px;
+}
+
 .main-text {
   color: var(--color-light);
   letter-spacing: 0.8px;

@@ -27,7 +27,7 @@ li {
 .navbar {
   box-shadow: none;
   background-color: transparent;
-  position: fixed;
+  position: absolute;
   top: 0;
   width: 100%;
   padding: 22px 50px;
@@ -134,6 +134,10 @@ li {
   background: var(--gradient-blue);
   width: 100%;
   padding: 350px 0px;
+}
+
+.img-separator{
+  margin-bottom: -360px;
 }
 
 .main-text {

@@ -54,6 +54,7 @@ $(document).ready(function () {
         $(".navbar").css("box-shadow", "0 2px 10px 0 rgba(0, 0, 0, 0.15)");
         $(".link-title").css("color", "#000");
         $(".logo").css("fill", "#000");
+        $(".link-title:before").css("background", "#000");
       }
   
       else {
@@ -61,6 +62,7 @@ $(document).ready(function () {
         $(".navbar").css("box-shadow", "none");
         $(".link-title").css("color", "#fff");
         $(".logo").css("fill", "#fff");
+        $(".link-title:before").css("background", "#fff");
 
       }
     })

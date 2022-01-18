@@ -98,23 +98,7 @@ li {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.sous-link-footer {
+.sous-link-navbar {
   display: flex;
   color: var(--grey-dark);
   font-size: 18px;
@@ -131,7 +115,7 @@ li {
   transition: all 0.2s linear;
 }
 
-.sous-link-footer:hover {
+.sous-link-navbar:hover {
   background-size: 100% 2px;
   color: var(--white);
 }

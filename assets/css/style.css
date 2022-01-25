@@ -50,6 +50,7 @@ li {
   color: var(--color-light);
   display: flex;
   float: right;
+  margin-top: 3px;
 }
 
 .link-title {
@@ -106,8 +107,7 @@ a:after {
 }
 
 .logo {
-  width: 70px;
-  margin-top: 3px;
+  width: 40px;
   fill: var(--color-light);
 }
 
@@ -202,4 +202,22 @@ a:after {
   color: #fff;
   background-color: #000;
   transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+.box-footer{
+  background: var(--gradient-blue);
+  padding: 150px 0px;
+  bottom: 0;
+  left: 0;
+  text-align: center;
 }

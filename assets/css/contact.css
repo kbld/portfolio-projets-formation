@@ -25,7 +25,7 @@ li {
   --color-light: #fff;
   --color-dark: #000;
   --bg-color-switch: #0d1117;
-  --gradient-blue: linear-gradient(151deg, #0b2850 0, #040c21 36%);
+  --gradient-blue: linear-gradient(to right, #8a2387, #e94057, #f27121);
   --color-blue: #0068aa;
 }
 /* NAVBAR */
@@ -266,11 +266,17 @@ li {
 
 
 
-
 .box-footer{
-  background: var(--gradient-blue);
-  padding: 150px 0px;
+  background: var(--color-light);
+  padding: 70px 0px;
   bottom: 0;
   left: 0;
   text-align: center;
+}
+
+.title-copyright{
+  color: var(--color-dark);
+  font-size: 18px;
+  text-align: center;
+  font-weight: 500;
 }

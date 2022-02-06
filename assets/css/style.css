@@ -1,12 +1,12 @@
 * {
   box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   margin: 0;
   padding: 0;
 }
 
 body {
-  background-color: #f7f7fb;
+  background-color: #ffffff;
 }
 
 a,
@@ -16,7 +16,7 @@ li {
 }
 
 :root {
-  --color-light: #fff;
+  --color-white: #fff;
   --color-dark: #000;
   --bg-color-switch: #0d1117;
   --gradient-blue: linear-gradient(to right, #8a2387, #e94057, #f27121);
@@ -30,12 +30,12 @@ li {
   position: fixed;
   top: 0;
   width: 100%;
-  padding: 22px 50px;
   height: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
   transition: 0.5s;
+  background-color: #000000;
 }
 
 .box-navbar {
@@ -43,19 +43,21 @@ li {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1100px;
+  padding: 18px 0px;
 }
 
 .link-navbar {
-  color: var(--color-light);
+  color: var(--color-white);
   display: flex;
   float: right;
   margin-top: 3px;
+  font-size: 14px;
 }
 
 .link-title {
   display: flex;
-  font-size: 18px;
+  font-size: 17px;
   cursor: pointer;
   padding: 10px 0px;
   margin: 0px 30px;
@@ -68,10 +70,10 @@ li {
 .link-title:before {
   left: 0;
   bottom: 0;
-  width: 100%;
+  width: 102%;
   height: 1px;
   background-color: #ffffff;
-  transform: translateX(-100%);
+  transform: translateX(-102%);
 }
 .link-title:hover:before {
   transform: translateX(0);
@@ -93,8 +95,7 @@ a:after {
   padding: 10px 20px;
   border-radius: 5px;
   margin: 10px;
-  background-image: var(--gradient-color);
-  background-image: var(--gradient-color);
+  background-image: #FFF;
   background-position: 50% 100%;
   background-size: 0% 2px;
   background-repeat: no-repeat;
@@ -107,18 +108,30 @@ a:after {
 }
 
 .logo {
-  width: 40px;
-  fill: var(--color-light);
+  width: 35px;
+  fill: var(--color-white);
 }
 
 /* MAIN BACKGROUND */
 
 /* MAIN BACKGROUND */
 
-.main-background {
-  background: var(--gradient-blue);
+.box-max1100px{
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.background-color{
+  background-image: url("/assets/img/back-port-exo.png");
+  background-size: cover;
   width: 100%;
-  padding: 350px 0px;
+  height: 100%;
+}
+.main-background {
+  background:transparent;
+
+
+  width: 100%;
+  padding: 300px 0px;
 }
 
 .img-separator {
@@ -126,16 +139,36 @@ a:after {
 }
 
 .main-text {
-  color: var(--color-light);
+  color: var(--color-dark);
   letter-spacing: 0.8px;
   font-weight: 700;
-  text-align: center;
-  font-size: 50px;
+  text-align: left;
+  font-size: 60px;
+  padding: 50px 0px;
+  color: #fff;
+}
+.main-text-blue {
+  color: #0057ff;
 }
 
-.main-text-weight {
-  -webkit-text-stroke: 1.5px var(--color-light);
-  color: transparent;
+.button-extern{
+  background: transparent;
+  color: #fff;
+  border: 2px solid #ffffff;
+  border-radius: 50px;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+
+}
+
+.button-extern:hover{
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  border: 2px solid #ffffff;
+transition: 0.5s;
+
 }
 
 /* FLEX BOX */
@@ -147,25 +180,21 @@ a:after {
   justify-content: center;
   align-content: stretch;
   align-items: flex-start;
-  margin: 50px 0px;
+  background-color: transparent;
+  padding: 200px 0px;
 }
 
 .box {
-  width: 450px;
+  width: 550px;
   margin: 20px 20px;
-  border-radius: 10px;
+  border-radius: 20px;
   align-self: auto;
-  padding: 30px 30px;
-  background-color: #ffffff;
+  padding: 40px 50px;
+  background: white;
+  border: 1px solid #FFF;
 }
 
-.number-title {
-  font-size: 72px;
-  -webkit-text-stroke: 3px var(--color-dark);
-  font-weight: 600;
-  color: transparent;
-  font-style: italic;
-}
+
 
 .img-box {
   width: 300px;
@@ -176,32 +205,33 @@ a:after {
 }
 
 .sous-title-box {
-  margin-top: 30px;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  font-weight: 500;
 }
 
 .button-link-box {
-  border: 1px solid #000;
-  color: rgb(0, 0, 0);
   cursor: pointer;
-  border-radius: 50px;
-  font-weight: 500;
   display: block;
   margin-right: auto;
   margin-left: auto;
-  font-size: 15px;
-  padding: 15px 35px;
-  border-radius: 10px;
-  color: #000;
-  text-transform: uppercase;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 150px;
+  background: #000;
+  color: rgb(255, 255, 255);
+  border-radius: 50px;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: 500;
+  width: 300px;
+  border: 2px solid #000;
 }
 
 .button-link-box:hover {
-  border: 1px solid #000;
-  color: #fff;
-  background-color: #000;
+background-color: transparent;
+border: 2px solid #000;
   transition: 0.5s;
+  color: #000000;
 }
 
 
@@ -213,16 +243,16 @@ a:after {
 
 
 .box-footer{
-  background: var(--color-light);
-  padding: 70px 0px;
+  background: var(--color-dark);
+  padding: 50px 0px;
   bottom: 0;
   left: 0;
   text-align: center;
 }
 
 .title-copyright{
-  color: var(--color-dark);
+  color: var(--color-white);
   font-size: 18px;
   text-align: center;
-  font-weight: 500;
+  font-weight: 400;
 }

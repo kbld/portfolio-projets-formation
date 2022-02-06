@@ -38,34 +38,7 @@ $(document).ready(function () {
   $(this).addClass("active");
 });
 
-$(document).ready(function () {
-  $(window).scroll(function () {
-    var scroll = $(window).scrollTop();
-    if (scroll > 64) {
-      $(".navbar").css("position", "fixed");
-      $(".navbar").css("background", "#fff");
-      $(".navbar").css("box-shadow", "0 2px 10px 0 rgba(0, 0, 0, 0.15)");
-      $(".link-title").css("color", "#000");
-      $(".logo").css("fill", "#000");
-      $(".link-title:before").css("background", "#000");
-      var styleElem = document.head.appendChild(
-        document.createElement("style")
-      );
-      styleElem.innerHTML = ".link-title:before {background: #000;}";
-    } else {
-      $(".navbar").css("position", "absolute");
-      $(".navbar").css("background", "rgb(255, 255, 255, 0)");
-      $(".navbar").css("box-shadow", "none");
-      $(".link-title").css("color", "#fff");
-      $(".logo").css("fill", "#fff");
-      $(".link-title:before").css("background", "#fff");
-      var styleElem = document.head.appendChild(
-        document.createElement("style")
-      );
-      styleElem.innerHTML = ".link-title:before {background: #fff;}";
-    }
-  });
-});
+
 
 
 

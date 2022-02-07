@@ -36,6 +36,7 @@ li {
   align-items: center;
   transition: 0.5s;
   background-color: #000000;
+  padding: 0px 50px;
 }
 
 .box-navbar {
@@ -119,6 +120,7 @@ a:after {
 .box-max1100px{
   max-width: 1100px;
   margin: 0 auto;
+  padding: 0px 50px;
 }
 .background-color{
   background-image: url("/assets/img/back-port-exo.png");
@@ -143,7 +145,7 @@ a:after {
   letter-spacing: 0.8px;
   font-weight: 700;
   text-align: left;
-  font-size: 60px;
+  font-size: 50px;
   padding: 50px 0px;
   color: #fff;
 }
@@ -151,6 +153,15 @@ a:after {
   color: #0057ff;
 }
 
+.button-graph{
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.img-logo{
+  width: 70px;
+  height: 70px;
+}
 .button-extern{
   background: transparent;
   color: #fff;
@@ -255,4 +266,73 @@ border: 2px solid #000;
   font-size: 18px;
   text-align: center;
   font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.link-box {
+  animation: animation-1 2s;
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  height: auto;
+  max-width: 700px;
+}
+
+.sous-link-box {
+  background-color: var(--color-white);
+  color: var(--white);
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  padding: 12px 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid var(--color-white);
+  margin: 0px 35px;
+  stroke: var(--color-dark);
+  fill: var(--color-dark);
+  margin: 10px 20px 10px 0px;
+}
+.svg-button-link-box {
+  display: flex;
+  height: 13px;
+  width: 13px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: 20px;
+  fill-rule: nonzero;
+  stroke-width: 0.5px;
+}
+
+.txt-button-link-box {
+  font-size: 15px;
+  text-transform: uppercase;
+  display: block;
+  vertical-align: middle;
+  line-height: normal;
+  font-weight: 500;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sous-link-box:hover {
+  color: var(--color-white);
+  border: 2px solid var(--color-white);
+  stroke: var(--color-white);
+  fill: var(--color-white);
+  transition: 0.5s;
+  background: transparent;
 }
